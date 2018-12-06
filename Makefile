@@ -5,7 +5,7 @@ CFLAGS := -g
 XITONG := -m32
 
 #在编译android固件时，出现过error: only position independent executables (PIE) are supported.
-#需要在链接时添加上这个
+#需要在编译时添加上这个
 PIE := -pie -fPIE
 
 #链接库 其中-L. /bin 是在当前目录下寻找库，否则会在/use/lib/下找
